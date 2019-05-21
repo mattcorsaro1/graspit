@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!-- d0: wsg_finger_left_joint, min=-0.055, max=-0.0027 -->
+<!-- d1: wsg_finger_right_joint, min=0.0027, max=0.055 -->
+<EigenGrasps dimensions="2">
+	<EG>
+		<EigenValue value="0.5"/> <!--EigenValue is not used in the code at this stage -->
+		<!--Limits min="0" max="0"/-->
+		<DimVals d0="-0.02885" d1="0.02885"/>
+	</EG>
+	<ORIGIN>
+		<EigenValue value="0.5"/> 
+		<DimVals d0="-28.85" d1="28.85"/>
+	</ORIGIN>
+</EigenGrasps>
