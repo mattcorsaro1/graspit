@@ -28,7 +28,7 @@
 			<a>0</a>
 			<alpha>0</alpha>
 			<minValue>-55</minValue>
-			<maxValue>-2.7</maxValue>
+			<maxValue>-6</maxValue>
 			<viscousFriction>5.0e+7</viscousFriction>
 		</joint>
 		<link dynamicJointType='Prismatic'>wsg_gripper_left.xml</link>
@@ -43,7 +43,7 @@
 			<d> d1+0</d>
 			<a>0</a>
 			<alpha>0</alpha>
-			<minValue>2.7</minValue>
+			<minValue>6</minValue>
 			<maxValue>55</maxValue>
 			<viscousFriction>5.0e+7</viscousFriction>
 		</joint>
