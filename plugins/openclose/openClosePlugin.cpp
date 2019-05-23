@@ -26,9 +26,9 @@
 #include "openClosePlugin.h"
 
 #include "mainWindow.h"
-#include "graspitCore.h"
-#include "world.h"
-#include "robot.h"
+#include "graspit/graspitCore.h"
+#include "graspit/world.h"
+#include "graspit/robot.h"
 
 #include <iostream>
 

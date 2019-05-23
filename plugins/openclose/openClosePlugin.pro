@@ -21,14 +21,14 @@ DEFINES += COIN_DLL
 
 INCLUDEPATH += $(QTDIR)/include $(COINDIR)/include qhull $$ADDITIONAL_INCLUDE_DIR
 
-INCLUDEPATH += $(GRASPIT)/src $(GRASPIT)/src/Collision $(GRASPIT)/include $(GRASPIT)/include/math $(GRASPIT)/include/Planner $(GRASPIT)/include/EGPlanner $(GRASPIT)/ui $(GRASPIT)/ui/Planner $(GRASPIT)/ui/EGPlanner $(GRASPIT)/build/include/graspit/ui $(GRASPIT)/build/include/graspit/ui/Planner $(GRASPIT)/build/include/graspit/ui/EGPlanner
+INCLUDEPATH += $(GRASPIT)/src $(GRASPIT)/src/Collision $(GRASPIT)/include $(GRASPIT)/include/graspit/math $(GRASPIT)/include/graspit/Planner $(GRASPIT)/include/graspit/EGPlanner $(GRASPIT)/ui $(GRASPIT)/ui/Planner $(GRASPIT)/ui/EGPlanner $(GRASPIT)/build/include/graspit/ui $(GRASPIT)/build/include/graspit/ui/Planner $(GRASPIT)/build/include/graspit/ui/EGPlanner
 
 
 
-DEPENDPATH += $(GRASPIT)/src $(GRASPIT)/src/Collision include $(GRASPIT)/include/math $(GRASPIT)/include/Planner $(GRASPIT)/include/EGPlanner $(GRASPIT)/ui $(GRASPIT)/ui/Planner $(GRASPIT)/ui/EGPlanner
+DEPENDPATH += $(GRASPIT)/src $(GRASPIT)/src/Collision include $(GRASPIT)/include/graspit/math $(GRASPIT)/include/graspit/Planner $(GRASPIT)/include/graspit/EGPlanner $(GRASPIT)/ui $(GRASPIT)/ui/Planner $(GRASPIT)/ui/EGPlanner
 
 
-HEADERS += openClosePlugin.h $(GRASPIT)/include/plugin.h
+HEADERS += openClosePlugin.h $(GRASPIT)/include/graspit/plugin.h
 
 SOURCES += openClosePlugin.cpp
 
