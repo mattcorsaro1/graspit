@@ -10,7 +10,7 @@
 	</dof>
 
 	<dof type='r'>
-		<defaultVelocity>1</defaultVelocity>
+		<defaultVelocity>-1</defaultVelocity>
 		<maxEffort>1</maxEffort>
 		<Kp>1e+09</Kp>
 		<Kd>1e+07</Kd>
